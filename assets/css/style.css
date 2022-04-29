@@ -697,6 +697,7 @@ a:hover {
   color: #E5645E;
   font-weight: 600;
   font-size: 3rem;
+  margin-top: 15px;
 }
 @media (min-width: 768px) {
   .hero .hero-title {
@@ -706,6 +707,8 @@ a:hover {
 .hero .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
+  background-color: #F6BBB7;
+  padding: 0 5px 0 5px;
 }
 @media (min-width: 768px) {
   .hero .hero-subtitle {
