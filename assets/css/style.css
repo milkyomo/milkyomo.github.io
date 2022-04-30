@@ -1054,6 +1054,11 @@ a:hover {
 .contact-mf {
   margin-top: 4rem;
 }
+.contact-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media (min-width: 767px) {
   .contact-mf .box-pl2 {
     margin-top: 3rem;
