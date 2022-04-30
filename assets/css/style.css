@@ -109,9 +109,9 @@ a:hover {
   }
 }
 
-.overlay-mf {
-  /* background-color: #B48EFF; */
-}
+/* .overlay-mf {
+  background-color: #B48EFF;
+} */
 
 .overlay-mf {
   position: absolute;
@@ -121,6 +121,7 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: 0.7;
+  z-index: -1;
 }
 
 .paralax-mf {
@@ -1333,10 +1334,13 @@ footer {
 }
 footer .copyright {
   margin-bottom: 0.3rem;
+  z-index: 9;
 }
 footer .credits {
   margin-bottom: 0;
+  z-index: 9;
 }
 footer .credits a {
   color: #fff;
+  z-index: 9;
 }
