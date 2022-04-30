@@ -19,11 +19,16 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #494949;
+}
+
+h1,
+h3 {
+  font-family: 'Handlee', cursive;
 }
 
 a {
-  color: #1e1e1e;
+  color: #494949;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -137,7 +142,7 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #494949;
   font-size: 1.1rem;
 }
 
@@ -222,7 +227,7 @@ a:hover {
 .socials .ico-circle:hover {
   background-color: #E5645E;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px #F6BBB7;
   transition: all 500ms ease;
 }
 
@@ -319,15 +324,15 @@ a:hover {
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
+  color: #fff;
 }
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #298eff;
-  color: #fff;
+  background: #F6BBB7;
+  color: #E5645E;
 }
 .back-to-top.active {
   visibility: visible;
@@ -396,7 +401,7 @@ a:hover {
   outline: 0;
 }
 .button:hover {
-  background-color: #0062d3;
+  background-color: #F6BBB7;
   color: #fff;
   transition: all 500ms ease;
 }
@@ -696,23 +701,33 @@ a:hover {
 .hero .hero-title {
   color: #E5645E;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 5rem;
   margin-top: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 402px) and (max-width: 992px) {
   .hero .hero-title {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 0px) and (max-width:401px) {
+  .hero .hero-title {
+    font-size: 2rem;
   }
 }
 .hero .hero-subtitle {
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 600;
   background-color: #F6BBB7;
   padding: 0 5px 0 5px;
 }
-@media (min-width: 768px) {
+@media (min-width: 402px) and (max-width: 992px) {
   .hero .hero-subtitle {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 0px) and (max-width:401px) {
+  .hero .hero-subtitle {
+    font-size: 1.2rem;
   }
 }
 .hero .text-slider-items {
@@ -800,7 +815,7 @@ a:hover {
 }
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #494949;
 }
 .service-box .ico-circle {
   transition: all 500ms ease;
@@ -1087,7 +1102,7 @@ a:hover {
   transition: 0.4s;
 }
 .php-email-form button[type=submit]:hover {
-  background: #3393ff;
+  background: #E5645E;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1202,7 +1217,7 @@ a:hover {
   color: #E5645E;
 }
 .blog-wrapper .post-meta ul span {
-  color: #1e1e1e;
+  color: #494949;
 }
 .blog-wrapper .blockquote {
   border-left: 4px solid #E5645E;
@@ -1239,7 +1254,7 @@ a:hover {
   color: #E5645E;
 }
 .box-comments .list-comments span {
-  color: #1e1e1e;
+  color: #494949;
   font-style: italic;
 }
 .box-comments .comment-children {
